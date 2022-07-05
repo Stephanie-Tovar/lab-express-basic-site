@@ -1,3 +1,35 @@
 body {
-    background-color: aqua;
+    background-color: rgb(227, 232, 232);
+}
+
+.movies-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-img {
+    width: 20rem;
+    height: 27rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.movie-wrapper > p {
+    text-align: center;
+}
+
+.about-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-fincher {
+    width: 20rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }
