@@ -2,6 +2,18 @@ body {
     background-color: rgb(227, 232, 232);
 }
 
+nav>ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+h1,
+h2,
+#intro {
+    text-align: center;
+}
+
 .movies-gallery {
     display: flex;
     flex-direction: row;
@@ -17,7 +29,7 @@ body {
     margin-right: 1rem;
 }
 
-.movie-wrapper > p {
+.movie-wrapper>p {
     text-align: center;
 }
 
